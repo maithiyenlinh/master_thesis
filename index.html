@@ -73,7 +73,7 @@
         function pop_rates_50_1_1(feature, layer) {
             var popupContent = '<table>\
                     <tr>\
-                        <td colspan="2">' + (feature.properties['Chart'] !== null ? '<a href="images/' + String(feature.properties['Chart']).replace(/[\\\/:]/g, '_').trim() + '" /" target="blank"><img scr="images/' + String(feature.properties['Chart']).replace(/[\\\/:]/g, '_').trim() + '" width="300" height="250"></a>' : '') + '</td>\
+                        <td colspan="2">' + (feature.properties['Chart'] !== null ? '<a href="images/' + String(feature.properties['Chart']).replace(/[\\\/:]/g, '_').trim() + '" /" target="blank"><img scr="images/' + String(feature.properties['Chart']).replace(/[\\\/:]/g, '_').trim() + '" width="750" height="500"></a>' : '') + '</td>\
                     </tr>\
                 </table>';
             layer.bindPopup(popupContent, {maxHeight: 400});
